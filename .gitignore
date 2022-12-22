@@ -4,11 +4,6 @@
 .config
 venv/
 __pycache__
-.editorconfig
-.eslintignore
-.eslintrc.js
-.gitignore
-.npmrc
-.postcssrc.js
-.prettierrc
+__pycache__/functions.cpython-310.__pycache__
+__pycache__/main.cpython-310.pyc
 .vscode/

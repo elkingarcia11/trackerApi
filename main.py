@@ -1,10 +1,6 @@
 from fastapi import FastAPI
-import routers.login
-import routers.transactions
-# from passlib.context import CryptContext
-#pwd_context = CryptContext(schemes=["bcrypt"],deprecated="auto")
-#hashed_password = pwd_context.hash("password")
+from routers import login, transactions
 
 app = FastAPI()
-app.include_router(routers.login.router)
-app.include_router(routers.transactions.router)
+app.include_router(login.router)
+app.include_router(transactions.router)
