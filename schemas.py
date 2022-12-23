@@ -17,9 +17,9 @@ class Transaction(BaseModel):
     id : str
     name : str
     invoice : str
-    paid : str
     receipt : str
-    date : str
+    amount_paid : str
+    date_processed : str
 
 class TransactionRequestResponse(BaseModel):
     status : int

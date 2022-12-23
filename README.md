@@ -14,3 +14,9 @@ pip install "yagmail"
 pip install "python-decouple"
 
 pip install "passlib[bcrypt]"
+
+pip install "psycopg2-binary"
+
+pip install "psycopg2"
+
+Update path variables
